@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="BezierCurve.h" />
+    <ClInclude Include="bushes.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="DrawableObject.h" />
+    <ClInclude Include="DynamicRotation.h" />
+    <ClInclude Include="IObserver.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelInterface.h" />
+    <ClInclude Include="ModelLoader.h" />
+    <ClInclude Include="ModelObject.h" />
+    <ClInclude Include="ModelSkycube.h" />
+    <ClInclude Include="plain.h" />
+    <ClInclude Include="plainTexture.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="Rotation.h" />
+    <ClInclude Include="Scale.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderLoader.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="SpotLight.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureModel.h" />
+    <ClInclude Include="Transformation.h" />
+    <ClInclude Include="TransformationInterface.h" />
+    <ClInclude Include="Translation.h" />
+    <ClInclude Include="tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="DrawableObject.cpp" />
+    <ClCompile Include="DynamicRotation.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelInterface.cpp" />
+    <ClCompile Include="ModelLoader.cpp" />
+    <ClCompile Include="ModelObject.cpp" />
+    <ClCompile Include="ModelSkycube.cpp" />
+    <ClCompile Include="PointLight.cpp" />
+    <ClCompile Include="Rotation.cpp" />
+    <ClCompile Include="Scale.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderLoader.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="SpotLight.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureModel.cpp" />
+    <ClCompile Include="Transformation.cpp" />
+    <ClCompile Include="Translation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12221_Cat_v1_l3.mtl" />
+    <None Include="cottage_obj.mtl" />
+    <None Include="eyeball.mtl" />
+    <None Include="fragment_shader.glsl" />
+    <None Include="fragment_shader_blinn.glsl" />
+    <None Include="fragment_shader_combinedTeLe.glsl" />
+    <None Include="fragment_shader_constant.glsl" />
+    <None Include="fragment_shader_directional.glsl" />
+    <None Include="fragment_shader_Lambert.glsl" />
+    <None Include="fragment_shader_les.glsl" />
+    <None Include="fragment_shader_les_lights.glsl" />
+    <None Include="fragment_shader_lights_phong_material.glsl" />
+    <None Include="fragment_shader_phong.glsl" />
+    <None Include="fragment_shader_phong_lights.glsl" />
+    <None Include="fragment_shader_reflektor.glsl" />
+    <None Include="fragment_shader_triangle.glsl" />
+    <None Include="fragment_textures.glsl" />
+    <None Include="fragment_textures_cube.glsl" />
+    <None Include="fragment_textures_cube_night.glsl" />
+    <None Include="fragmetn_shader_blinn.glsl" />
+    <None Include="house.mtl" />
+    <None Include="Login.mtl" />
+    <None Include="nepomenované.mtl" />
+    <None Include="PhongFragmentShader.glsl" />
+    <None Include="PhongVertexShader.glsl" />
+    <None Include="teren.mtl" />
+    <None Include="tree.mtl" />
+    <None Include="vertexShaderStinovani.glsl" />
+    <None Include="vertex_shader.glsl" />
+    <None Include="vertex_shader_blinn.glsl" />
+    <None Include="vertex_shader_combinedTeLe.glsl" />
+    <None Include="vertex_shader_constant.glsl" />
+    <None Include="vertex_shader_directional.glsl" />
+    <None Include="vertex_shader_lambert.glsl" />
+    <None Include="vertex_shader_les.glsl" />
+    <None Include="vertex_shader_les_lights.glsl" />
+    <None Include="vertex_shader_lights_phong_material.glsl" />
+    <None Include="vertex_shader_phong.glsl" />
+    <None Include="vertex_shader_phong_lights.glsl" />
+    <None Include="vertex_shader_reflektor.glsl" />
+    <None Include="vertex_shader_triangle.glsl" />
+    <None Include="vertex_textures.glsl" />
+    <None Include="vertex_textures_cube.glsl" />
+    <None Include="vertex_textures_cube_night.glsl" />
+    <None Include="wooden watch tower2.mtl" />
+    <None Include="zombie.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\adamk\OneDrive\Počítač\wooden_fence.png" />
+    <Image Include="Cat_bump.jpg" />
+    <Image Include="Cat_diffuse.jpg" />
+    <Image Include="cottage_diffuse.png" />
+    <Image Include="cottage_normal.png" />
+    <Image Include="Eye_D.jpg" />
+    <Image Include="Eye_N.jpg" />
+    <Image Include="grass.png" />
+    <Image Include="grassObject.png" />
+    <Image Include="house.png" />
+    <Image Include="negx.jpg" />
+    <Image Include="negy.jpg" />
+    <Image Include="negz.jpg" />
+    <Image Include="posx.jpg" />
+    <Image Include="posy.jpg" />
+    <Image Include="posz.jpg" />
+    <Image Include="tree.png" />
+    <Image Include="wooden_fence.png" />
+    <Image Include="Wood_Tower_Col.jpg" />
+    <Image Include="zombie.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7c09d990-702c-4846-8719-371f6ed57deb}</ProjectGuid>
+    <RootNamespace>ZPG1111</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\include;D:\AdamKuchar\ZPG\Libraries\soil\include;..\..\Libraries\glew-2.2.0\include;..\..\Libraries\glm-master;..\..\Libraries\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;glfw3.lib;soil.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\lib\x64\v141\Release;D:\AdamKuchar\ZPG\Libraries\soil\lib-vc2012\Platform_x64;..\..\Libraries\glew-2.2.0\lib\Release\x64;..\..\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\include;D:\AdamKuchar\ZPG\Libraries\soil\include;..\..\Libraries\glew-2.2.0\include;..\..\Libraries\glm-master;..\..\Libraries\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;glfw3.lib;soil.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\lib\x64\v141\Release;D:\AdamKuchar\ZPG\Libraries\soil\lib-vc2012\Platform_x64;..\..\Libraries\glew-2.2.0\lib\Release\x64;..\..\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\include;D:\AdamKuchar\ZPG\Libraries\soil\include;..\..\Libraries\glew-2.2.0\include;..\..\Libraries\glm-master;..\..\Libraries\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;glfw3.lib;soil.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\lib\x64\v141\Release;D:\AdamKuchar\ZPG\Libraries\soil\lib-vc2012\Platform_x64;..\..\Libraries\glew-2.2.0\lib\Release\x64;..\..\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\include;D:\AdamKuchar\ZPG\Libraries\soil\include;..\..\Libraries\glew-2.2.0\include;..\..\Libraries\glm-master;..\..\Libraries\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;glfw3.lib;soil.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\AdamKuchar\ZPG\Libraries\assimp\lib\x64\v141\Release;D:\AdamKuchar\ZPG\Libraries\soil\lib-vc2012\Platform_x64;..\..\Libraries\glew-2.2.0\lib\Release\x64;..\..\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

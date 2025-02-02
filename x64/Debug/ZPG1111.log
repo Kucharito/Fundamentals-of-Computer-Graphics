@@ -1,0 +1,57 @@
+﻿  Application.cpp
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Application.cpp(119,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Application.cpp(119,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Application.cpp(122,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Application.cpp(122,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Application.cpp(127,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Application.cpp(127,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  BezierCurve.cpp
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\BezierCurve.cpp(12,10): warning C4305: '=': truncation from 'double' to 'float'
+  Camera.cpp
+  Controller.cpp
+  DirectionalLight.cpp
+  DrawableObject.cpp
+  DynamicRotation.cpp
+  Light.cpp
+  main.cpp
+  Material.cpp
+  Model.cpp
+  ModelInterface.cpp
+  ModelLoader.cpp
+  ModelObject.cpp
+  ModelSkycube.cpp
+  PointLight.cpp
+  Rotation.cpp
+  Scale.cpp
+  Scene.cpp
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(55,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(53,27): warning C4101: 'transformationInterface': unreferenced local variable
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(252,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(377,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(482,82): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(375,27): warning C4101: 'transformationInterface': unreferenced local variable
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\Scene.cpp(537,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Shader.cpp
+  Generating Code...
+  Compiling...
+  ShaderLoader.cpp
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\ShaderLoader.cpp(21,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\AdamKuchar\ZPG\ZPG1111\ZPG1111\ShaderLoader.cpp(22,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ShaderProgram.cpp
+  SpotLight.cpp
+  Subject.cpp
+  Texture.cpp
+  TextureModel.cpp
+  Transformation.cpp
+  Translation.cpp
+  Generating Code...
+  soil.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+soil.lib(SOIL.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(SOIL.obj)' or at ''; linking object as if no debug info
+soil.lib(stb_image_aug.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(stb_image_aug.obj)' or at ''; linking object as if no debug info
+soil.lib(image_helper.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(image_helper.obj)' or at ''; linking object as if no debug info
+soil.lib(image_DXT.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(image_DXT.obj)' or at ''; linking object as if no debug info
+  ZPG1111.vcxproj -> D:\AdamKuchar\ZPG\ZPG1111\x64\Debug\ZPG1111.exe
