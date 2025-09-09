@@ -26,6 +26,13 @@ The application demonstrates rendering 3D scenes, lighting, textures, transforma
 
 4. Build and run the project.
 
+## 🎥 Demo
+
+Watch the demo video on YouTube:  
+[![Watch the video](https://img.youtube.com/vi/rRctr2Un48M/0.jpg)](https://youtu.be/rRctr2Un48M)
+
+
+
 ## ✨ Features
 
 - ✅ Rendering of **3D models** (`.obj`) with materials and textures  
@@ -46,5 +53,5 @@ The application demonstrates rendering 3D scenes, lighting, textures, transforma
 
 ## 🧑‍💻 Author
 
-Created by **Adam Kuchar**  
+Created by **Adam Kuchár**  
 Developed as part of coursework – **ZPG course (Computer Graphics)**.  

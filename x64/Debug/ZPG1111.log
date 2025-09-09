@@ -50,8 +50,8 @@ LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
   Finished generating code
-soil.lib(SOIL.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(SOIL.obj)' or at ''; linking object as if no debug info
-soil.lib(stb_image_aug.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(stb_image_aug.obj)' or at ''; linking object as if no debug info
-soil.lib(image_helper.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(image_helper.obj)' or at ''; linking object as if no debug info
-soil.lib(image_DXT.obj) : warning LNK4099: PDB '' was not found with 'soil.lib(image_DXT.obj)' or at ''; linking object as if no debug info
+soil.lib(SOIL.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'soil.lib(SOIL.obj)' or at 'D:\AdamKuchar\ZPG\ZPG1111\x64\Debug\vc110.pdb'; linking object as if no debug info
+soil.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'soil.lib(stb_image_aug.obj)' or at 'D:\AdamKuchar\ZPG\ZPG1111\x64\Debug\vc110.pdb'; linking object as if no debug info
+soil.lib(image_helper.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'soil.lib(image_helper.obj)' or at 'D:\AdamKuchar\ZPG\ZPG1111\x64\Debug\vc110.pdb'; linking object as if no debug info
+soil.lib(image_DXT.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'soil.lib(image_DXT.obj)' or at 'D:\AdamKuchar\ZPG\ZPG1111\x64\Debug\vc110.pdb'; linking object as if no debug info
   ZPG1111.vcxproj -> D:\AdamKuchar\ZPG\ZPG1111\x64\Debug\ZPG1111.exe
